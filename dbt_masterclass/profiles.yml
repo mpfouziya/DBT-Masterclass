@@ -1,0 +1,25 @@
+dbt_masterclass:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-19fca01a-098a.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/4f626214b3708070
+      schema: default
+      threads: 1
+      token: access_token_from_databricks
+      type: databricks
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-19fca01a-098a.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/4f626214b3708070
+      schema: default
+      threads: 1
+      token: access_token_from_databricks
+      type: databricks  
+  target: dev
+
+
+
+
+
+

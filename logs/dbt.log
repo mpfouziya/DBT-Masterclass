@@ -1,0 +1,217 @@
+[0m11:06:24.807124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10269fd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c80da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c80ad0>]}
+
+
+============================== 11:06:24.823426 | 53e0db70-50ec-4c5b-8359-79bba3d65553 ==============================
+[0m11:06:24.823426 [info ] [MainThread]: Running with dbt=1.10.15
+[0m11:06:24.823750 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'printer_width': '80', 'log_format': 'default', 'partial_parse': 'True', 'write_json': 'True', 'version_check': 'True', 'profiles_dir': '/Users/fouziya/.dbt', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'target_path': 'None', 'no_print': 'None', 'warn_error': 'None', 'quiet': 'False', 'debug': 'False', 'introspect': 'True', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True'}
+[0m11:06:24.850129 [info ] [MainThread]: Creating dbt configuration folder at /Users/fouziya/.dbt
+[0m11:07:24.269570 [debug] [MainThread]: Starter project path: /Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:07:24.283061 [info ] [MainThread]: 
+Your new dbt project "dbt_masterclass" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:07:24.283675 [info ] [MainThread]: Setting up your profile.
+[0m11:08:05.845578 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:08:05.845804 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:08:05.845938 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:12:30.893864 [info ] [MainThread]: Profile dbt_masterclass written to /Users/fouziya/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:12:30.921076 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 366.13492, "process_in_blocks": "0", "process_kernel_time": 0.431594, "process_mem_max_rss": "340983808", "process_out_blocks": "0", "process_user_time": 2.500078}
+[0m11:12:30.921641 [debug] [MainThread]: Command `dbt init` succeeded at 11:12:30.921579 after 366.14 seconds
+[0m11:12:30.921883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c80e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1339250d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x125c59820>]}
+[0m11:12:30.922120 [debug] [MainThread]: Flushing usage events
+[0m11:12:31.932698 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:12:40.793246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10462ee70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f78da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f78b30>]}
+
+
+============================== 11:12:40.795442 | 9a227c2a-da6d-4454-b7a2-81ea01c3d404 ==============================
+[0m11:12:40.795442 [info ] [MainThread]: Running with dbt=1.10.15
+[0m11:12:40.795721 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'write_json': 'True', 'version_check': 'True', 'log_format': 'default', 'static_parser': 'True', 'use_colors': 'True', 'printer_width': '80', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'empty': 'None', 'warn_error': 'None', 'introspect': 'True', 'profiles_dir': '/Users/fouziya/.dbt', 'quiet': 'False', 'invocation_command': 'dbt debug', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False'}
+[0m11:12:40.804200 [info ] [MainThread]: dbt version: 1.10.15
+[0m11:12:40.804416 [info ] [MainThread]: python version: 3.12.3
+[0m11:12:40.804658 [info ] [MainThread]: python path: /Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/bin/python3
+[0m11:12:40.804886 [info ] [MainThread]: os info: macOS-14.1-arm64-arm-64bit
+[0m11:12:41.121020 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:12:41.121251 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:12:41.121374 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:12:41.401130 [info ] [MainThread]: Using profiles dir at /Users/fouziya/.dbt
+[0m11:12:41.401364 [info ] [MainThread]: Using profiles.yml file at /Users/fouziya/.dbt/profiles.yml
+[0m11:12:41.401504 [info ] [MainThread]: Using dbt_project.yml file at /Users/fouziya/PycharmProjects/DBT-MasterClass/dbt_project.yml
+[0m11:12:41.401623 [info ] [MainThread]: adapter type: databricks
+[0m11:12:41.401735 [info ] [MainThread]: adapter version: 1.11.0
+[0m11:12:41.401853 [info ] [MainThread]: Configuration:
+[0m11:12:41.401958 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:12:41.402062 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:12:41.402167 [info ] [MainThread]: Required dependencies:
+[0m11:12:41.402306 [debug] [MainThread]: Executing "git --help"
+[0m11:12:41.408436 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:12:41.408972 [debug] [MainThread]: STDERR: "b''"
+[0m11:12:41.409175 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:12:41.409395 [info ] [MainThread]: Connection:
+[0m11:12:41.409656 [info ] [MainThread]:   host: dbc-19fca01a-098a.cloud.databricks.com
+[0m11:12:41.409805 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/4f626214b3708070
+[0m11:12:41.409942 [info ] [MainThread]:   catalog: dbt_tutorial_dev
+[0m11:12:41.410065 [info ] [MainThread]:   schema: default
+[0m11:12:41.410355 [info ] [MainThread]: Registered adapter: databricks=1.11.0
+[0m11:12:41.499434 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m11:12:41.499728 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m11:12:41.499852 [debug] [MainThread]: Using databricks connection "debug"
+[0m11:12:41.499960 [debug] [MainThread]: On debug: select 1 as id
+[0m11:12:41.500056 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:13:44.536863 [error] [MainThread]: Encountered an error:
+
+[0m11:13:44.554054 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/cli/main.py", line 420, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 144, in run
+    connection_status = self.test_connection()
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/spark/impl.py", line 519, in debug_query
+    self.execute("select 1 as id")
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/impl.py", line 401, in execute
+    return super().execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt_common/record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/base/impl.py", line 461, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 367, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 340, in add_query
+    handle: DatabricksHandle = connection.handle
+                               ^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 96, in handle
+    self._handle.resolve(self)
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 120, in resolve
+    return self.opener(connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 506, in open
+    return cls.retry_connection(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/base/connections.py", line 237, in retry_connection
+    connection.handle = connect()
+                        ^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 481, in connect
+    conn = DatabricksHandle.from_connection_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/handle.py", line 211, in from_connection_args
+    conn = dbsql.connect(**conn_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/__init__.py", line 90, in connect
+    return Connection(server_hostname, http_path, access_token, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/client.py", line 274, in __init__
+    self.session.open()
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/session.py", line 132, in open
+    self._session_id = self.backend.open_session(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/backend/thrift_backend.py", line 601, in open_session
+    response = self.make_request(self._client.OpenSession, open_session_req)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/backend/thrift_backend.py", line 512, in make_request
+    response_or_error_info = attempt_request(attempt)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/backend/thrift_backend.py", line 417, in attempt_request
+    response = method(request)
+               ^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/thrift_api/TCLIService/TCLIService.py", line 204, in OpenSession
+    self.send_OpenSession(req)
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/thrift_api/TCLIService/TCLIService.py", line 213, in send_OpenSession
+    self._oprot.trans.flush()
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/databricks/sql/auth/thrift_http_client.py", line 193, in flush
+    self.__resp = self.__pool.request(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries.sleep()
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 363, in sleep
+    self._sleep_backoff()
+  File "/Users/fouziya/PycharmProjects/DBT-MasterClass/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 347, in _sleep_backoff
+    time.sleep(backoff)
+KeyboardInterrupt
+
+[0m11:13:44.557505 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 63.7902, "process_in_blocks": "0", "process_kernel_time": 0.17203, "process_mem_max_rss": "220545024", "process_out_blocks": "0", "process_user_time": 1.090524}
+[0m11:13:44.558291 [debug] [MainThread]: Command `dbt debug` failed at 11:13:44.558200 after 63.79 seconds
+[0m11:13:44.558698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b81e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11b3ae0f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f46690>]}
+[0m11:13:44.559051 [debug] [MainThread]: Flushing usage events
+[0m11:13:45.371763 [debug] [MainThread]: An error was encountered while trying to flush usage events
